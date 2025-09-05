@@ -13,6 +13,7 @@ from peft import (
     LoraConfig,
     get_peft_model,
     prepare_model_for_kbit_training,
+    kbit_trainer
 )
 
 # 1. Define Model ID
